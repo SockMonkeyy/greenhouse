@@ -52,7 +52,23 @@
                 <source src="./assets/video.mp4" alt="Green House Productions" id="myVideo" type="video/mp4">
             </video>
 
-
+            <!-- The header content -->
+            <div class="flash-text">
+                <div id="flash-text">
+                    <span id="text1"></span>
+                    <span id="text2"></span>
+                </div>
+                <svg id="filters">
+                    <defs>
+                        <filter id="threshold">
+                            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                                                0 1 0 0 0
+                                                0 0 1 0 0
+                                                0 0 0 255 -140" />
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
     </header>
     </section>
     <!-- Services-->
