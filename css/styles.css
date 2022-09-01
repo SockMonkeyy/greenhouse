@@ -3287,14 +3287,14 @@ fieldset:disabled .btn {
   margin-bottom: 2rem;
   color: #039e3e;
   padding: .5em 1em;
-  background-color: #none;
+  background-color: white;
   border: 2px solid #039e3e;
   font-size: 1em;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #none;
+  background-color: #039e3e;
   border-color: #039e3e;
   box-shadow: 0 0.5em 0.5em -0.4em #02b647;
   transform: translateY(-0.25em);
@@ -12582,3 +12582,5 @@ input[type=submit]:hover {
   font-weight: 800;
   user-select: none;
 }
+
+.
