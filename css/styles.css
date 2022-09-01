@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
 /*!
 * Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
 * Copyright 2013-2022 Start Bootstrap
@@ -734,6 +736,21 @@ progress {
   .container {
     max-width: 960px;
   }
+}
+
+.motion{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media all and (min-width: 992px){
+.motion{
+  align-items: baseline;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
 }
 
 @media (min-width: 1200px) {
@@ -11701,6 +11718,8 @@ accordion-button {
 html {
   scroll-padding-top: 4.5rem;
 }
+
+
 
 body {
   position: relative;
